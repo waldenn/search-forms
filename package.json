@@ -1,0 +1,38 @@
+{
+  "name": "search-forms",
+  "version": "0.0.1",
+  "description": "Automatically detects how to search any site and creates options compatible with mikeal's request library.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pro-src/search-forms.git"
+  },
+  "keywords": [
+    "search",
+    "form",
+    "opensearch",
+    "searchbox",
+    "sitelinks",
+    "detect",
+    "auto",
+    "request"
+  ],
+  "author": "Rodney Teal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pro-src/search-forms/issues"
+  },
+  "homepage": "https://github.com/pro-src/search-forms#readme",
+  "dependencies": {
+    "htmlparser2": "^3.10.0",
+    "js-levenshtein": "^1.1.6",
+    "request": "^2.88.0",
+    "ultron": "^1.1.1"
+  }
+}
