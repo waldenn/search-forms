@@ -2,7 +2,7 @@
 Automatically detects how to search any site and creates options compatible with mikeal's request library.
 
 Detects:
-* Google's sitelinks searchbox via in-page linked data
+* Sitelinks Searchbox
 * OpenSearch
 * Forms
 
