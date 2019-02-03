@@ -1,6 +1,6 @@
 {
   "name": "search-forms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically detects how to search any site and creates options compatible with mikeal's request library.",
   "main": "index.js",
   "directories": {
