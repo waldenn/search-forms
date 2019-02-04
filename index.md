@@ -1,5 +1,6 @@
-# search-forms
-Automatically detects how to search any site and creates options compatible with mikeal's request library.
+---
+layout: default
+---
 
 Detects:
 * Sitelinks Searchbox
