@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include ribbon.html %}
-
 Detects:
 * Sitelinks Searchbox
 * OpenSearch
