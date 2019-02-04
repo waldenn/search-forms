@@ -1,22 +1,28 @@
-const { Parser } = require('./lib/html-parser');
-
-const { SiteActionParser } = require('./lib/site-actions');
 const { SearchFormParser } = require('./lib/forms');
+const { SiteActionParser } = require('./lib/site-actions');
 const { OpenSearchParser } = require('./lib/opensearch');
 
 // const html = require('fs').readFileSync('./test.html', 'utf-8');
-// getForms(html, { location: 'http://localhost:8000' }).then(console.log);
+/*
+require('request')({ uri: process.argv[2] }, (error, response, html) => {
+  if (error) {
+    console.error(error);
+    return;
+  }
+
+  getForms(html, { location: process.argv[2] }).then(console.log);
+});
+*/
 
 module.exports = {
   getForms,
-  Parser,
   SiteActionParser,
   SearchFormParser,
   OpenSearchParser
 };
 
 async function getForms(html, options) {
-  const parser = new Parser({
+  const parser = new SearchFormParser({
     decodeEntities: true,
     ...options
   });
@@ -24,7 +30,6 @@ async function getForms(html, options) {
   parser.on('error', console.error);
 
   parser.chain(SiteActionParser);
-  parser.chain(SearchFormParser);
   parser.chain(OpenSearchParser);
 
   parser.write(html);
