@@ -18,7 +18,7 @@ Forms are ordered by probability of being a preferred search method.
 The default confidence threshold is set to 20.
 Forms with negative confidence are not likely to be search forms.
 
-Try it now via [RunKit!](https://pro-src.github.io/search-forms/)
+Try it now via [RunKit!](https://pro-src.github.io/search-forms#runkit-tips)
 
 The code, although not very well commented, is well structured and will serve as it's own documentation for now.
 
