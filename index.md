@@ -22,7 +22,7 @@ Forms with negative confidence are not likely to be search forms.
 ###### RunKit Tips
 
 ***You can try it now by using the run button.***<br>
-_Try expanding the html response to render the results!_
+###### Try expanding the html response to render the results!
 
 {% include runkit.html %}
 
