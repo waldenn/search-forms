@@ -9,14 +9,19 @@ Detects:
 * OpenSearch
 * Forms
 
+```sh
+npm i --save search-forms
+```
+
 The detection methods are very robust and should work on 99% of sites that are searchable.
 All result types are abstracted to forms.
 Forms are ordered by probability of being a preferred search method.
 The default confidence threshold is set to 20.
 Forms with negative confidence are not likely to be search forms.
 
-***You can try it now by using the run button.***
+###### RunKit Tips
 
+***You can try it now by using the run button.***<br>
 _Try expanding the html response to render the results!_
 
 {% include runkit.html %}
