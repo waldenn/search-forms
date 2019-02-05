@@ -1,10 +1,14 @@
-# search-forms
+# Search Forms ![](https://img.shields.io/npm/dw/search-forms.svg?style=flat)
 Automatically detects how to search any site and creates options compatible with mikeal's request library.
 
 Detects:
 * Sitelinks Searchbox
 * OpenSearch
 * Forms
+
+```sh
+npm i --save search-forms
+```
 
 The detection methods are very robust and should work on 99% of sites that are searchable.
 All result types are abstracted to forms.
