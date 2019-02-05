@@ -13,6 +13,9 @@ Forms are ordered by probability of being a preferred search method.
 The default confidence threshold is set to 20.
 Forms with negative confidence are not likely to be search forms.
 
+***You can try it now by using the run button.***
+_Try expanding the html response to render the results!_
+
 {% include runkit.html %}
 
 Feel free to send PR's and open issues!
