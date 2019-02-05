@@ -20,6 +20,6 @@ Forms with negative confidence are not likely to be search forms.
 
 Try it now via [RunKit!](https://pro-src.github.io/search-forms#runkit-tips)
 
-The code, although not very well commented, is well structured and will serve as it's own documentation for now.
+See [htmlparser2](https://github.com/pro-src/htmlparser2-ultron) for parser docs.
 
 Feel free to send PR's and open issues!
