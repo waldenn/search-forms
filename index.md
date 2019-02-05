@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[![npm version](https://badge.fury.io/js/search-forms.svg)](https://badge.fury.io/js/search-forms) ![](https://img.shields.io/npm/dw/search-forms.svg?style=flat)
+
 Detects:
 * Sitelinks Searchbox
 * OpenSearch
@@ -14,6 +16,7 @@ The default confidence threshold is set to 20.
 Forms with negative confidence are not likely to be search forms.
 
 ***You can try it now by using the run button.***
+
 _Try expanding the html response to render the results!_
 
 {% include runkit.html %}
