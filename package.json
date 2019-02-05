@@ -30,9 +30,7 @@
   },
   "homepage": "https://github.com/pro-src/search-forms#readme",
   "dependencies": {
-    "htmlparser2": "^3.10.0",
-    "js-levenshtein": "^1.1.6",
-    "request": "^2.88.0",
-    "ultron": "^1.1.1"
+    "htmlparser2-ultron": "0.0.1",
+    "js-levenshtein": "^1.1.6"
   }
 }
