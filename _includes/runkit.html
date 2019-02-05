@@ -1,0 +1,24 @@
+<div id="runkit-search-forms">
+const request = require('request')
+const { getForms } = require('search-forms')
+
+test('https://google.com')
+test('https://bing.com')
+test('https://github.com')
+test('https://npmjs.com')
+test('https://stackoverflow.com')
+test('https://imdb.com')
+test('https://youtube.com')
+
+function test(location) {
+    request(location, async (error, response, body) => {
+        const forms = await getForms(body, { location })
+        const options = forms[0].search('something')
+
+        request(options, (error, response, body) => {
+            // Pro Tip: Try expanding the response to view results
+            console.log(options, body)
+        }) 
+    })
+}
+</div>
