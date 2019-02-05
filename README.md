@@ -1,5 +1,7 @@
-# Search Forms ![](https://img.shields.io/npm/dw/search-forms.svg?style=flat)
+# Search Forms 
 Automatically detects how to search any site and creates options compatible with mikeal's request library.
+
+[![npm version](https://badge.fury.io/js/search-forms.svg)](https://badge.fury.io/js/search-forms) ![](https://img.shields.io/npm/dw/search-forms.svg?style=flat)
 
 Detects:
 * Sitelinks Searchbox
